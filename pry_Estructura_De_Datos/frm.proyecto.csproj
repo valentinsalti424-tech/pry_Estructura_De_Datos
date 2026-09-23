@@ -47,12 +47,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Clscola.cs" />
+    <Compile Include="Clslistadoble.cs" />
+    <Compile Include="ClsListasimle.cs" />
+    <Compile Include="Clsnodo.cs" />
+    <Compile Include="Clspila.cs" />
     <Compile Include="FileName.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="frmLista.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmLista.Designer.cs">
+      <DependentUpon>frmLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmlistanueva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmlistanueva.Designer.cs">
+      <DependentUpon>Frmlistanueva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmpila.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmpila.Designer.cs">
+      <DependentUpon>Frmpila.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmpricipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmpricipal.Designer.cs">
+      <DependentUpon>Frmpricipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Fromcola.cs">
       <SubType>Form</SubType>
@@ -62,8 +85,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmLista.resx">
+      <DependentUpon>frmLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmlistanueva.resx">
+      <DependentUpon>Frmlistanueva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmpila.resx">
+      <DependentUpon>Frmpila.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmpricipal.resx">
+      <DependentUpon>Frmpricipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fromcola.resx">
       <DependentUpon>Fromcola.cs</DependentUpon>

@@ -1,6 +1,6 @@
 ﻿namespace pry_Estructura_De_Datos
 {
-    partial class Form1
+    partial class Frmpricipal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
